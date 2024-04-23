@@ -1,0 +1,43 @@
+/*Alumna: Gabriela Céspedes*/
+
+/*modifica el color y el tamaño de la fuente*/
+h1{
+   color: blue;
+   font-size: 50px;
+}
+/*modifica el tamaño de las imagenes*/
+img{
+    width: 200px;
+    height: 200px;
+}
+/*centrar el bloque que contiene todo en la pagina*/
+#conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*coloca las imagenes en forma de inline-block, las centra y ubica*/
+#block1, #block2, #block3{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-evenly;
+}
+/*despega las imagenes de los bordes de los divs*/
+.img-block1, .img-block2, .img-block3{
+    margin: 10px;
+}
+/*color del bloque1*/
+#block1{
+    background-color: skyblue;
+}
+/*color del bloque2*/
+#block2{
+    background-color: violet;
+}
+
+/*color del bloque3*/
+#block3{
+    background-color: greenyellow;
+}
